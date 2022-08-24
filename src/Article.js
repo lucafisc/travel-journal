@@ -5,7 +5,7 @@ export default function Article(props) {
       <div className="article--text">
         <div className="article--location">
           <h2>{props.location}</h2>
-          <a src={props.googleMapsUrl}>View on Google Maps</a>
+          <a href={props.googleMapsUrl}>View on Google Maps</a>
         </div>
         <h1 className="article--title">{props.title}</h1>
         <div className="article--dates">
